@@ -6,7 +6,7 @@
  * Author: WP OnlineSupport, Essential Plugin
  * Text Domain: portfolio-and-projects
  * Domain Path: /languages/
- * Version: 1.5.1
+ * Version: 1.5.2
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/portfolio-and-projects/
  *
  * @package Portfolio and Projects
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WP_PAP_VERSION' ) ) {
-	define( 'WP_PAP_VERSION', '1.5.1' ); // Version of plugin
+	define( 'WP_PAP_VERSION', '1.5.2' ); // Version of plugin
 }
 
 if( ! defined( 'WP_PAP_DIR' ) ) {
@@ -50,11 +50,11 @@ if( ! defined( 'WP_PAP_META_PREFIX' ) ) {
 // }
 
 if( ! defined( 'WP_PAP_PLUGIN_LINK_UPGRADE' ) ) {
-	define('WP_PAP_PLUGIN_LINK_UPGRADE', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Portfolio-and-Projects&utm_campaign=Upgrade-PRO'); // Plugin link
+	define('WP_PAP_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Portfolio-and-Projects&utm_campaign=Upgrade-PRO'); // Plugin link
 }
 
 if( ! defined( 'WP_PAP_PLUGIN_LINK_UNLOCK' ) ) {
-	define('WP_PAP_PLUGIN_LINK_UNLOCK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=RecentPostSlider&utm_campaign=Features-PRO'); // Plugin link
+	define('WP_PAP_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Portfolio-and-Projects&utm_campaign=Features-PRO'); // Plugin link
 }
 
 /**

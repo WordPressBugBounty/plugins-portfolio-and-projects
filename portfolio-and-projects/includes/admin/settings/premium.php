@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 <div class="wrap">
 
-	<h2><?php esc_html_e( 'Portfolio and Projects with ', 'portfolio-and-projects' ); ?><span class="wpos-epb"><?php esc_html_e( 'Essential Plugin Bundle', 'portfolio-and-projects' ); ?></span></h2><br />
+	<h2 style="text-align: center;"><?php esc_html_e( 'Portfolio and Projects with ', 'portfolio-and-projects' ); ?><span class="wpos-epb"><?php esc_html_e( 'Essential Plugin Bundle', 'portfolio-and-projects' ); ?></span></h2><br />
 
 	<style>
 		.wpos-plugin-pricing-table thead th h2{font-weight: 400; font-size: 2.4em; line-height:normal; margin:0px; color: #2ECC71;}
@@ -67,6 +67,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 		.wpos-new-feature{ font-size: 10px; color: #fff; font-weight: bold; background-color: #03aa29; padding:1px 4px; font-style: normal; }
 	</style>
 
+	<div class="wp-pap-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WP_PAP_PLUGIN_LINK_UPGRADE ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
 	<div id="poststuff">
 		<div id="post-body" class="metabox-holder">
 			<div id="post-body-content">
@@ -83,7 +87,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<th>
 								<h2 class="wpos-epb">Premium</h2>
 								<p>Gain access to <strong>Portfolio and Projects</strong> included in <br /><strong class="wpos-epb">Essential Plugin Bundle</strong></p>
-								<a href="<?php echo esc_url(WP_PAP_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Try Pro For 5 Days Free</a>
+								<a href="<?php echo esc_url(WP_PAP_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Try Pro with Back Friday Deals</a>
 							</th>
 						</tr>
 					</thead>
@@ -93,7 +97,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<th></th>
 							<td></td>
 							<td><p>Gain access to <strong>Portfolio and Projects</strong> included in <strong>Essential Plugin Bundle</strong></p>
-							<a href="<?php echo esc_url(WP_PAP_PLUGIN_LINK_UPGRADE); ?>" class="wpos-button" target="_blank">Try Pro For 5 Days Free</a></td>
+							<a href="<?php echo esc_url(WP_PAP_PLUGIN_LINK_UPGRADE); ?>" class="wpos-button" target="_blank">Try Pro with Back Friday Deals</a></td>
 						</tr>
 					</tfoot>
 

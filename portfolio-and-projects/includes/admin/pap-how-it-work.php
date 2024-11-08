@@ -128,7 +128,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							</ul>
 
 							<div class="upgrade-to-pro">Gain access to <strong>Portfolio and Projects</strong> included in <br /><strong>Essential Plugin Bundle</div>
-							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WP_PAP_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Try Pro For 5 Days Free', 'portfolio-and-projects'); ?></a>
+							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WP_PAP_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Try Pro with Back Friday Deals', 'portfolio-and-projects'); ?></a>
 						</div><!-- .inside -->
 					</div><!-- #general -->
 				</div><!-- .meta-box-sortables -->
