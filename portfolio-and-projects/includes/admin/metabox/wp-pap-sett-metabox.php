@@ -116,7 +116,7 @@ $pagination_slider	= ( $pagination_slider == 'false' ) ? 'false' : 'true';
 			<td>
 				<input type="checkbox" name="<?php echo esc_attr( $prefix ); ?>autoplay_slider" value="1" disabled="" /><br/>
 				<span class="description"><?php esc_html_e('Check this box to enable slider auto play.', 'portfolio-and-projects'); ?></span> 
-				<strong><?php echo sprintf( __( 'Try This PRO Features with <a href="%s" target="_blank">Early Back Friday Deals</a> on lifetime plan. FLAT $100 USD OFF.', 'portfolio-and-projects'), WP_PAP_PLUGIN_LINK_UNLOCK); ?></strong>
+				<strong style="color:#2ECC71; font-weight: 700;"><?php echo sprintf( __( ' <a href="%s" target="_blank" style="color:#2ECC71;">Upgrade To Pro</a> and Get Designs, Optimization, Security, Backup, Migration Solutions @ one stop.', 'portfolio-and-projects'), WP_PAP_PLUGIN_LINK_UNLOCK); ?></strong>
 			</td>
 		</tr>
 
@@ -128,7 +128,7 @@ $pagination_slider	= ( $pagination_slider == 'false' ) ? 'false' : 'true';
 			<td>
 				<input type="checkbox" name="<?php echo esc_attr( $prefix ); ?>autoplay_slider" value="1" disabled="" /><br/>
 				<span class="description"><?php esc_html_e( 'Check this box to run slider continuously.', 'portfolio-and-projects' ); ?></span> 
-				<strong><?php echo sprintf( __( 'Try This PRO Features with <a href="%s" target="_blank">Early Back Friday Deals</a> on lifetime plan. FLAT $100 USD OFF.', 'portfolio-and-projects'), WP_PAP_PLUGIN_LINK_UNLOCK); ?></strong>
+				<strong style="color:#2ECC71; font-weight: 700;"><?php echo sprintf( __( ' <a href="%s" target="_blank" style="color:#2ECC71;">Upgrade To Pro</a> and Get Designs, Optimization, Security, Backup, Migration Solutions @ one stop.', 'portfolio-and-projects'), WP_PAP_PLUGIN_LINK_UNLOCK); ?></strong>
 			</td>
 		</tr>
 
@@ -140,7 +140,7 @@ $pagination_slider	= ( $pagination_slider == 'false' ) ? 'false' : 'true';
 			<td>
 				<input type="text" name="<?php echo esc_attr( $prefix ); ?>slide_to_show_slider" class="medium-text" disabled="" /><br/>
 				<span class="description"><?php esc_html_e('Enter number of slides to show at a time.', 'portfolio-and-projects'); ?></span> 
-				<strong><?php echo sprintf( __( 'Try This PRO Features with <a href="%s" target="_blank">Early Back Friday Deals</a> on lifetime plan. FLAT $100 USD OFF.', 'portfolio-and-projects'), WP_PAP_PLUGIN_LINK_UNLOCK); ?></strong>
+				<strong style="color:#2ECC71; font-weight: 700;"><?php echo sprintf( __( ' <a href="%s" target="_blank" style="color:#2ECC71;">Upgrade To Pro</a> and Get Designs, Optimization, Security, Backup, Migration Solutions @ one stop.', 'portfolio-and-projects'), WP_PAP_PLUGIN_LINK_UNLOCK); ?></strong>
 			</td>
 		</tr>
 
@@ -152,7 +152,7 @@ $pagination_slider	= ( $pagination_slider == 'false' ) ? 'false' : 'true';
 			<td>
 				<input type="text" name="<?php echo esc_attr( $prefix ); ?>autoplayspeed_slider" class="medium-text" disabled="" /><br/>
 				<span class="description"><?php esc_html_e('Enter number of slider auto play interval.', 'portfolio-and-projects'); ?></span> 
-				<strong><?php echo sprintf( __( 'Try This PRO Features with <a href="%s" target="_blank">Early Back Friday Deals</a> on lifetime plan. FLAT $100 USD OFF.', 'portfolio-and-projects'), WP_PAP_PLUGIN_LINK_UNLOCK); ?></strong>
+				<strong style="color:#2ECC71; font-weight: 700;"><?php echo sprintf( __( ' <a href="%s" target="_blank" style="color:#2ECC71;">Upgrade To Pro</a> and Get Designs, Optimization, Security, Backup, Migration Solutions @ one stop.', 'portfolio-and-projects'), WP_PAP_PLUGIN_LINK_UNLOCK); ?></strong>
 			</td>
 		</tr>
 
@@ -164,7 +164,7 @@ $pagination_slider	= ( $pagination_slider == 'false' ) ? 'false' : 'true';
 			<td>
 				<input type="text" name="<?php echo esc_attr( $prefix ); ?>speed_slider" class="medium-text" disabled="" /><br/>
 				<span class="description"><?php esc_html_e('Enter number of slider speed.', 'portfolio-and-projects'); ?></span> 
-				<strong><?php echo sprintf( __( 'Try This PRO Features with <a href="%s" target="_blank">Early Back Friday Deals</a> on lifetime plan. FLAT $100 USD OFF.', 'portfolio-and-projects'), WP_PAP_PLUGIN_LINK_UNLOCK); ?></strong>
+				<strong style="color:#2ECC71; font-weight: 700;"><?php echo sprintf( __( ' <a href="%s" target="_blank" style="color:#2ECC71;">Upgrade To Pro</a> and Get Designs, Optimization, Security, Backup, Migration Solutions @ one stop.', 'portfolio-and-projects'), WP_PAP_PLUGIN_LINK_UNLOCK); ?></strong>
 			</td>
 		</tr>
 	</tbody>

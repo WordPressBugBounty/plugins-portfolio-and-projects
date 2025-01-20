@@ -6,7 +6,7 @@
  * Author: WP OnlineSupport, Essential Plugin
  * Text Domain: portfolio-and-projects
  * Domain Path: /languages/
- * Version: 1.5.2
+ * Version: 1.5.3
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/portfolio-and-projects/
  *
  * @package Portfolio and Projects
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WP_PAP_VERSION' ) ) {
-	define( 'WP_PAP_VERSION', '1.5.2' ); // Version of plugin
+	define( 'WP_PAP_VERSION', '1.5.3' ); // Version of plugin
 }
 
 if( ! defined( 'WP_PAP_DIR' ) ) {

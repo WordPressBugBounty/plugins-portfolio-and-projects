@@ -53,6 +53,91 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		.wpos-epb{color:#ff2700 !important;}
 
+		/* welcome-screen-css start -M */
+		.wp-pap-sf-btn{display: inline-block; font-size: 18px; padding: 10px 25px; border-radius: 100px;  background-color: #ff5d52; border-color: #ff5d52; color: #fff !important; font-weight: 600; text-decoration: none;}
+		.wp-pap-sf-btn:hover,
+		.wp-pap-sf-btn:focus{background-color: #ff5d52; border-color: #ff5d52;}
+		.wp-pap-inner-Bonus-class{background: #46b450;
+		  border-radius: 20px;
+		  font-weight: 700;
+		  padding: 5px 10px;
+		  color: #fff;
+		    line-height: 1;
+		  font-size: 12px;}
+
+		.wp-pap-black-friday-feature{padding: 30px 40px;
+		  background: #fafafa;
+		  border-radius: 20px 20px 0 0;
+		  gap: 60px;
+		  align-items: center;
+		  flex-direction: row;
+		  display: flex;}
+		.wp-pap-black-friday-feature .wp-pap-inner-deal-class{flex-direction: column;
+		  gap: 15px;
+		  display: flex;
+		  align-items: flex-start;}
+		.wp-pap-black-friday-feature ul li{text-align: left;}
+		.wp-pap-black-friday-feature .wp-pap-inner-list-class {
+		  display: grid;
+		  grid-template-columns: repeat(4,1fr);
+		  gap: 10px;
+		}
+		.wp-pap-black-friday-feature .wp-pap-list-img-class {
+		  min-height: 95px;
+		  display: flex;
+		  align-items: center;
+		  background: #fff;
+		  border-radius: 20px;
+		  flex-direction: column;
+		  gap: 10px;
+		  justify-content: center;
+		  padding: 10px;color: #000;
+		  font-size: 12px;
+		}
+		.wp-pap-black-friday-banner-wrp .wp-pap-list-img-class img {
+		  width: 100%;
+		  flex: 0 0 40px;
+		  font-size: 20px;
+		  height: 40px;
+		  width: 40px;
+		  box-shadow: inset 0px 0px 15px 2px #c4f2ac;
+		  border-radius: 14px;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  padding: 10px;
+		}
+
+		.wp-pap-main-feature-item{background: #fafafa;
+		  padding: 20px 15px 40px;
+		  border-radius: 0 0 20px 20px;margin-bottom: 40px;}
+		.wp-pap-inner-feature-item{display: flex;
+		  gap: 30px;
+		  padding: 0 15px;}
+		.wp-pap-list-feature-item {
+		  border: 1px solid #ddd;
+		  padding: 10px 15px;
+		  border-radius: 8px;text-align: left;
+		}
+		.wp-pap-list-feature-item img {
+		  width: 36px !important;
+		  padding: 5px;
+		  border: 1px solid #ccc;
+		  border-radius: 50%;margin-bottom: 5px;
+		}
+		.wp-pap-list-feature-item h5{margin: 0;
+		  font-weight: bold;font-size: 16px;
+		  text-decoration: underline;
+		  text-underline-position: under;
+		  color: #000;}
+		.wp-pap-list-feature-item p {
+		  color: #505050;
+		  font-size: 12px;
+		  margin-bottom: 0;
+		}
+
+		/* welcome-screen-css end -M */
+
 		/* SideBar */
 		.wpos-sidebar .wpos-epb-wrap{background:#0055fb; color:#fff; padding:15px;}
 		.wpos-sidebar .wpos-epb-wrap  h2{font-size:24px !important; color:#fff; margin:0 0 15px 0; padding:0px !important;}
@@ -67,8 +152,71 @@ if ( ! defined( 'ABSPATH' ) ) {
 		.wpos-new-feature{ font-size: 10px; color: #fff; font-weight: bold; background-color: #03aa29; padding:1px 4px; font-style: normal; }
 	</style>
 
-	<div class="wp-pap-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( WP_PAP_PLUGIN_LINK_UPGRADE ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	<!-- <div class="wp-pap-black-friday-banner-wrp">
+		<a href="<?php //echo esc_url( WP_PAP_PLUGIN_LINK_UPGRADE ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( WP_PAP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
+
+	<div class="wp-pap-black-friday-banner-wrp" style="background:#e1ecc8;padding: 20px 20px 40px; border-radius:5px; text-align:center;margin-bottom: 40px;">
+		<h2 style="font-size:30px; margin-bottom:10px;"><span style="color:#0055fb;">Portfolio and Projects</span> is included in <span style="color:#0055fb;">Essential Plugin Bundle</span> </h2> 
+		<h4 style="font-size: 18px;margin-top: 0px;color: #ff5d52;margin-bottom: 24px;">Now get Designs, Optimization, Security, Backup, Migration Solutions @ one stop. </h4>
+
+		<div class="wp-pap-black-friday-feature">
+
+			<div class="wp-pap-inner-deal-class" style="width:40%;">
+				<div class="wp-pap-inner-Bonus-class">Bonus</div>
+				<div class="wp-pap-image-logo" style="font-weight: bold;font-size: 26px;color: #222;"><img style="width: 34px; height:34px;vertical-align: middle;margin-right: 5px;" class="wp-pap-img-logo" src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/essential-logo-small.png" alt="essential-logo" /><span class="wp-pap-esstial-name" style="color:#0055fb;">Essential </span>Plugin</div>
+				<div class="wp-pap-sub-heading" style="font-size: 16px;text-align: left;font-weight: bold;color: #222;margin-bottom: 10px;">Includes All premium plugins at no extra cost.</div>
+				<a class="wp-pap-sf-btn" href="<?php echo esc_url( WP_PAP_PLUGIN_LINK_UPGRADE ); ?>" target="_blank">Grab The Deal</a>
+			</div>
+
+			<div class="wp-pap-main-list-class" style="width:60%;">
+				<div class="wp-pap-inner-list-class">
+					<div class="wp-pap-list-img-class"><img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/img-slider.png" alt="essential-logo" /> Image Slider</li></div>
+
+					<div class="wp-pap-list-img-class"><img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/advertising.png" alt="essential-logo" /> Publication</li></div>
+
+					<div class="wp-pap-list-img-class"><img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/marketing.png" alt="essential-logo" /> Marketing</li></div>
+
+					<div class="wp-pap-list-img-class"><img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/photo-album.png" alt="essential-logo" /> Photo album</li></div>
+
+					<div class="wp-pap-list-img-class"><img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/showcase.png" alt="essential-logo" /> Showcase</li></div>
+
+					<div class="wp-pap-list-img-class"><img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/shopping-bag.png" alt="essential-logo" /> WooCommerce</li></div>
+
+					<div class="wp-pap-list-img-class"><img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/performance.png" alt="essential-logo" /> Performance</li></div>
+
+					<div class="wp-pap-list-img-class"><img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/security.png" alt="essential-logo" /> Security</li></div>
+
+					<div class="wp-pap-list-img-class"><img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/forms.png" alt="essential-logo" /> Pro Forms</li></div>
+
+					<div class="wp-pap-list-img-class"><img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/seo.png" alt="essential-logo" /> SEO</li></div>
+
+					<div class="wp-pap-list-img-class"><img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/backup.png" alt="essential-logo" /> Backups</li></div>
+
+					<div class="wp-pap-list-img-class"><img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/White-labeling.png" alt="essential-logo" /> Migration</li></div>
+				</div>
+			</div>
+		</div>
+		<div class="wp-pap-main-feature-item">
+			<div class="wp-pap-inner-feature-item">
+				<div class="wp-pap-list-feature-item">
+					<img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/layers.png" alt="layer" />
+					<h5>Site management</h5>
+					<p>Manage, update, secure & optimize unlimited sites.</p>
+				</div>
+				<div class="wp-pap-list-feature-item">
+					<img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/risk.png" alt="backup" />
+					<h5>Backup storage</h5>
+					<p>Secure sites with auto backups and easy restore.</p>
+				</div>
+				<div class="wp-pap-list-feature-item">
+					<img src="<?php echo esc_url( WP_PAP_URL ); ?>assets/images/logo-image/support.png" alt="support" />
+					<h5>Support</h5>
+					<p>Get answers on everything WordPress at anytime.</p>
+				</div>
+			</div>
+		</div>
+		<a class="wp-pap-sf-btn" href="<?php echo esc_url( WP_PAP_PLUGIN_LINK_UPGRADE ); ?>" target="_blank">Grab The Deal</a>
 	</div>
 
 	<div id="poststuff">
@@ -87,7 +235,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<th>
 								<h2 class="wpos-epb">Premium</h2>
 								<p>Gain access to <strong>Portfolio and Projects</strong> included in <br /><strong class="wpos-epb">Essential Plugin Bundle</strong></p>
-								<a href="<?php echo esc_url(WP_PAP_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Try Pro with Back Friday Deals</a>
+								<a href="<?php echo esc_url(WP_PAP_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Upgrade To PRO</a>
 							</th>
 						</tr>
 					</thead>
@@ -97,7 +245,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<th></th>
 							<td></td>
 							<td><p>Gain access to <strong>Portfolio and Projects</strong> included in <strong>Essential Plugin Bundle</strong></p>
-							<a href="<?php echo esc_url(WP_PAP_PLUGIN_LINK_UPGRADE); ?>" class="wpos-button" target="_blank">Try Pro with Back Friday Deals</a></td>
+							<a href="<?php echo esc_url(WP_PAP_PLUGIN_LINK_UPGRADE); ?>" class="wpos-button" target="_blank">Upgrade To PRO</a></td>
 						</tr>
 					</tfoot>
 

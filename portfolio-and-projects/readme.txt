@@ -2,8 +2,8 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, patelketan
 Tags: portfolio, portfolio listing, project grid, project portfolio, Responsive Portfolio
 Requires at least: 4.0
-Tested up to: 6.6.2
-Stable tag: 1.5.2
+Tested up to: 6.7.1
+Stable tag: 1.5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -99,6 +99,9 @@ Where limit define the number of posts to display.
 1. Also work with Gutenberg shortcode block.
 
 == Changelog ==
+
+= 1.5.3 (20, January 2025) =
+* [*] Check compatibility to WordPress version 6.7.1
 
 = 1.5.2 (08, Nov 2024) =
 * [*] Update - Check compatibility to WordPress version 6.6.2

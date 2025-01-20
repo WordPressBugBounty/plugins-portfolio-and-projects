@@ -68,7 +68,7 @@ class Wp_Pap_Admin {
 		add_submenu_page( 'edit.php?post_type='.WP_PAP_POST_TYPE, __( 'How it works, our plugins and offers', 'portfolio-and-projects' ), __( 'How It Works', 'portfolio-and-projects' ), 'manage_options', 'pap-designs', array( $this, 'wp_pap_designs_page' ) );
 
 		// Register plugin premium page
-		add_submenu_page( 'edit.php?post_type='.WP_PAP_POST_TYPE, __( 'Upgrade To Premium - Portfolio and Projects', 'portfolio-and-projects' ), '<span style="color:#ff2700">'.__( 'Upgrade To PRO – Early Back Friday Deals', 'portfolio-and-projects' ).'</span>', 'manage_options', 'wp-pap-premium', array( $this, 'wp_pap_premium_page' ) );
+		add_submenu_page( 'edit.php?post_type='.WP_PAP_POST_TYPE, __( 'Upgrade To Premium - Portfolio and Projects', 'portfolio-and-projects' ), '<span style="color:#2ECC71">'.__( 'Upgrade To PRO', 'portfolio-and-projects' ).'</span>', 'manage_options', 'wp-pap-premium', array( $this, 'wp_pap_premium_page' ) );
 	}
 
 	/**
