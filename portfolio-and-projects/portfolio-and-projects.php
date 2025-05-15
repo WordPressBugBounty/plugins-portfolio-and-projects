@@ -3,11 +3,11 @@
  * Plugin Name: Portfolio and Projects
  * Plugin URI: https://www.essentialplugin.com/wordpress-plugin/portfolio-and-projects/
  * Description: Display Portfolio OR Projects in a grid view. Also work with Gutenberg shortcode block.
- * Author: WP OnlineSupport, Essential Plugin
+ * Author: Essential Plugin
  * Text Domain: portfolio-and-projects
  * Domain Path: /languages/
- * Version: 1.5.3
- * Author URI: https://www.essentialplugin.com/wordpress-plugin/portfolio-and-projects/
+ * Version: 1.5.4
+ * Author URI: https://www.essentialplugin.com
  *
  * @package Portfolio and Projects
  * @author Essential Plugin
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WP_PAP_VERSION' ) ) {
-	define( 'WP_PAP_VERSION', '1.5.3' ); // Version of plugin
+	define( 'WP_PAP_VERSION', '1.5.4' ); // Version of plugin
 }
 
 if( ! defined( 'WP_PAP_DIR' ) ) {
@@ -40,14 +40,6 @@ if( ! defined( 'WP_PAP_CAT' ) ) {
 if( ! defined( 'WP_PAP_META_PREFIX' ) ) {
 	define( 'WP_PAP_META_PREFIX', '_wp_pap_' ); // Plugin metabox prefix
 }
-
-// if( ! defined( 'WP_PAP_PLUGIN_LINK_UNLOCK' ) ) {
-// 	define('WP_PAP_PLUGIN_LINK_UNLOCK','https://www.essentialplugin.com/essential-plugin-bundle-pricing/?utm_source=WP&utm_medium=Portfolio-and-Projects&utm_campaign=Features-PRO'); // Plugin link
-// }
-
-// if( ! defined( 'WP_PAP_PLUGIN_LINK_UPGRADE' ) ) {
-// 	define('WP_PAP_PLUGIN_LINK_UPGRADE','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Portfolio-and-Projects&utm_campaign=Upgrade-PRO'); // Plugin Check link
-// }
 
 if( ! defined( 'WP_PAP_PLUGIN_LINK_UPGRADE' ) ) {
 	define('WP_PAP_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Portfolio-and-Projects&utm_campaign=Upgrade-PRO'); // Plugin link

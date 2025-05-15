@@ -42,7 +42,7 @@ $plugins_filter = wpos_espbw_plugins_filter();
 if( ! current_user_can('install_plugins') ) {
 	echo '<div class="error">
 			<p>'. esc_html__( "Sorry, It looks like that you do not have permission to install the plugin.", "espbw") .'</p>
-			<p>'. esc_html__("You can take a look at our all plugins at", "espbw") .' <a href="https://profiles.wordpress.org/wponlinesupport#content-plugins" target="_blank">'. esc_html__("here", "espbw") . '</a>.</p>
+			<p>'. esc_html__("You can take a look at our all plugins at", "espbw") .' <a href="https://profiles.wordpress.org/essentialplugin#content-plugins" target="_blank">'. esc_html__("here", "espbw") . '</a>.</p>
 		 </div>';
 	return;
 }
@@ -55,7 +55,7 @@ if( ! current_user_can('install_plugins') ) {
 
 		<div class="espbw-dashboard-title">
 			<div class="espbw-dashboard-title-inr">
-				<div class="espbw-dashboard-logo"><a href="<?php echo WP_PAP_SITE_LINK; ?>/?utm_source=wp&utm_medium=plugin&utm_campaign=essential-bundle" target="_blank"><img src="<?php echo esc_url( WPOS_ESPBW_URL ); ?>assets/images/essentialplugin-logo.png" alt="essentialplugin" /></a></div>
+				<div class="espbw-dashboard-logo"><img src="<?php echo esc_url( WPOS_ESPBW_URL ); ?>assets/images/essentialplugin-logo.png" alt="essentialplugin" /></div>
 				<h3 style="text-align:center;"><?php esc_html_e( 'Essential Plugin', 'espbw' ); ?></h3>
 				<em class="wpos-em">Installs directly from <b>wordpress.org</b> repository</em> <br />				
 			</div>
@@ -316,7 +316,7 @@ if( ! current_user_can('install_plugins') ) {
 
 				<div class="espbw-no-result">
 					<p><?php esc_html_e('Sorry, Something happened wrong.', 'espbw'); ?></p>
-					<p><?php esc_html_e('You can take a look at our all plugins at', 'espbw'); ?> <a href="https://profiles.wordpress.org/wponlinesupport#content-plugins" target="_blank"><?php esc_html_e('here', 'espbw'); ?></a>.</p>
+					<p><?php esc_html_e('You can take a look at our all plugins at', 'espbw'); ?> <a href="https://profiles.wordpress.org/essentialplugin#content-plugins" target="_blank"><?php esc_html_e('here', 'espbw'); ?></a>.</p>
 				</div>
 
 			<?php }

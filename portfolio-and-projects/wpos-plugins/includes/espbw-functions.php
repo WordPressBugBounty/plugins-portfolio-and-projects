@@ -46,7 +46,7 @@ function wpos_espbw_get_plugin_data() {
 
 		$plugins_data = plugins_api( 'query_plugins', array(
 											'per_page'	=> 60,
-											'author'	=> 'wponlinesupport',
+											'author'	=> 'essentialplugin',
 											'fields'	=> array(
 																'icons'				=> true,
 																'active_installs'	=> true,
@@ -146,7 +146,7 @@ function wpos_espbw_plugins_filter() {
 											),
 		'ticker-ultimate'				=> array(
 												'class' => 'espbw-recommended espbw-post espbw-showcase',
-												'tags'	=> 'wponlinesupport, ticker, news ticker, blog ticker, post ticker, ticker slider, ticker vertical slider, ticker horizontal slider',
+												'tags'	=> 'essentialplugin, ticker, news ticker, blog ticker, post ticker, ticker slider, ticker vertical slider, ticker horizontal slider',
 											),
 		'wp-blog-and-widgets'			=> array(
 												'class' => 'espbw-recommended espbw-post espbw-showcase',

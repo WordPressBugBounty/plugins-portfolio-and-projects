@@ -21,7 +21,7 @@ if ( !defined( 'ABSPATH' ) ) {
 				<p>By clicking "Opt Out", we will no longer be sending any data from <b><?php echo esc_html( $module['name'] ); ?></b> to <a href="https://www.essentialplugin.com/" target="_blank">essentialplugin.com</a>.</p>
 			</div>
 			<div class="wpos-anylc-popup-footer">
-				<form method="POST" action="https://analytics.wponlinesupport.com">
+				<form method="POST" action="https://analytics.essentialplugin.com">
 					<?php
 					if( ! empty( $optin_form_data ) ) {
 						foreach ($optin_form_data as $data_key => $data_value) {
