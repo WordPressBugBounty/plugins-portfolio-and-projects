@@ -220,23 +220,34 @@ class Wp_Pap_Admin {
 		$attachment_id		= ! empty( $_POST['attachment_id'] )	? wp_pap_clean_number( $_POST['attachment_id'] )	: '';
 		$nonce				= ! empty( $_POST['nonce'] )			? wp_pap_clean( $_POST['nonce'] )					: '';
 
-		if( ! empty( $attachment_id ) && wp_verify_nonce( $nonce, 'wp-pap-edit-attachment-data' ) ) {
+		// Capability check
+		if ( ! current_user_can( 'upload_files' ) ) {
+			wp_send_json( $result );
+		}
 
-			$attachment_post = get_post( $attachment_id );
+		// Verify nonce
+		if ( empty( $attachment_id ) || ! wp_verify_nonce( $nonce, 'wp-pap-edit-attachment-data' ) ) {
+			wp_send_json( $result );
+		}
 
-			if( ! empty( $attachment_post ) ) {
+		// Verify user can edit this attachment
+		if ( ! current_user_can( 'edit_post', $attachment_id ) ) {
+			wp_send_json( $result );
+		}
+		
+		$attachment_post = get_post( $attachment_id );
 
-				ob_start();
 
-				// Popup Data File
-				include( WP_PAP_DIR . '/includes/admin/settings/wp-pap-img-popup-data.php' );
+		if ( ! empty( $attachment_post ) ) {
+			ob_start();
+			include( WP_PAP_DIR . '/includes/admin/settings/wp-pap-img-popup-data.php' ); // Popup Data File
+			$attachment_data = ob_get_clean();
 
-				$attachment_data = ob_get_clean();
-
-				$result['success']	= 1;
-				$result['msg']		= esc_js ( __( 'Attachment Found.', 'portfolio-and-projects' ) );
-				$result['data']		= $attachment_data;
-			}
+			wp_send_json( array(
+				'success' => 1,
+				'msg'     => __( 'Attachment Found.', 'portfolio-and-projects' ),
+				'data'    => $attachment_data,
+			) );
 		}
 
 		wp_send_json( $result );

@@ -2,8 +2,8 @@
 Contributors: essentialplugin
 Tags: portfolio, portfolio listing, project grid, project portfolio, Responsive Portfolio
 Requires at least: 4.0
-Tested up to: 6.8.1
-Stable tag: 1.5.4
+Tested up to: 6.8.3
+Stable tag: 1.5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -99,6 +99,13 @@ Where limit define the number of posts to display.
 1. Also work with Gutenberg shortcode block.
 
 == Changelog ==
+
+= 1.5.6 (17, Nov 2025) =
+* [*] Fixed code conflict issue affecting widget saving.
+* [*] Tweak - Code optimization and performance improvements.
+
+= 1.5.5 (12, Nov 2025) =
+* [*] Check compatibility with WordPress version 6.8.3
 
 = 1.5.4 (15, May 2025) =
 * [*] Check compatibility with WordPress version 6.8.1

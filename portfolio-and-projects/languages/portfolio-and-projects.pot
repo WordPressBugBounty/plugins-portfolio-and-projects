@@ -489,7 +489,7 @@ msgid "Slider Pagination Dots"
 msgstr ""
 
 #: includes/admin/class-wp-pap-admin.php:219
-#: includes/admin/class-wp-pap-admin.php:255
+#: includes/admin/class-wp-pap-admin.php:266
 msgid "Sorry, Something happened wrong."
 msgstr ""
 
